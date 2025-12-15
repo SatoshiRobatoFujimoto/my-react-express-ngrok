@@ -6,8 +6,27 @@ React + Express + TypeScript のフルスタックアプリケーション
 
 ```
 my-react-express-ngrok/
-├── frontend/     # React + TypeScript + Vite
-└── backend/      # Express + TypeScript
+├── README.md
+├── ngrok.yml
+├── ngrok.yml.example
+├── backend/                 # Express + TypeScript
+│   ├── package.json
+│   ├── tsconfig.json
+│   └── src/
+│       └── index.ts
+└── frontend/                # React + TypeScript + Vite
+    ├── package.json
+    ├── vite.config.ts
+    ├── index.html
+    ├── public/
+    │   └── vite.svg
+    └── src/
+        ├── main.tsx
+        ├── App.tsx
+        ├── App.css
+        ├── index.css
+        └── assets/
+            └── react.svg
 ```
 
 ## セットアップ
